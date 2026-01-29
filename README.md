@@ -1,32 +1,32 @@
 # Sealium
 
-Monorepo Nx para Sealium. Incluye app web, API y librerias compartidas.
+Nx monorepo for Sealium. It includes the web app, API, and shared libraries.
 
-## Proyectos
+## Projects
 
-- `@sealium/web` - app web (React)
-- `@sealium/api` - API Node
-- `@sealium/web-e2e` - pruebas e2e (Playwright)
-- `@sealium/shared`, `@sealium/proof`, `@sealium/transcription`, `@sealium/files` - librerias
+- `@sealium/web` - Web app (React)
+- `@sealium/api` - Node API
+- `@sealium/web-e2e` - End-to-end tests (Playwright)
+- `@sealium/shared`, `@sealium/proof`, `@sealium/transcription`, `@sealium/files` - Libraries
 
-## Requisitos
+## Requirements
 
-- Node.js y npm (o pnpm/yarn)
+- Node.js and npm (or pnpm/yarn)
 
-## Inicio rapido
+## Quick start
 
 ```sh
 npm install
 npx nx show projects
 ```
 
-Para ver los targets disponibles de un proyecto:
+To see the targets available for a project:
 
 ```sh
 npx nx show project @sealium/api
 ```
 
-## Comandos comunes
+## Common commands
 
 ```sh
 # API
@@ -40,8 +40,8 @@ npx nx run @sealium/web:build
 # E2E
 npx nx run @sealium/web-e2e:e2e
 
-# Grafo del workspace
+# Workspace graph
 npx nx graph
 ```
 
-Si algun target no existe, revisa con `npx nx show project <project>`.
+If a target does not exist, check with `npx nx show project <project>`.
