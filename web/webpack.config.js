@@ -7,6 +7,11 @@ module.exports = {
     path: join(__dirname, 'dist'),
     clean: true,
   },
+  resolve: {
+    alias: {
+      '@': join(__dirname, 'src'),
+    },
+  },
   devServer: {
     port: 4200,
     historyApiFallback: {
