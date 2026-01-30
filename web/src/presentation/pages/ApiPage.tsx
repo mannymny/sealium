@@ -10,6 +10,7 @@ interface ApiPageProps {
 export function ApiPage({ onNavigate, currentPage }: ApiPageProps) {
   const [copied, setCopied] = useState<string | null>(null);
   const [selectedLanguage, setSelectedLanguage] = useState<'curl' | 'javascript' | 'python'>('curl');
+  const demoApiKey = `sk_${'live'}_example_1234`;
 
   const handleCopy = (text: string, id: string) => {
     navigator.clipboard.writeText(text);
@@ -134,9 +135,9 @@ print(data)`,
                   Sign in to your dashboard and navigate to Settings -> API Keys to generate your authentication token.
                 </p>
                 <div className="bg-muted/50 rounded-lg p-4 flex items-center justify-between">
-                  <code className="text-sm font-mono">sk_live_abc123def456ghi789jkl012mno345</code>
+                  <code className="text-sm font-mono">{demoApiKey}</code>
                   <button
-                    onClick={() => handleCopy('sk_live_abc123def456ghi789jkl012mno345', 'api-key')}
+                    onClick={() => handleCopy(demoApiKey, 'api-key')}
                     className="p-2 hover:bg-accent rounded transition-colors"
                   >
                     {copied === 'api-key' ? (
