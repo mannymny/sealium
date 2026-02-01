@@ -132,7 +132,7 @@ print(data)`,
               <div>
                 <h3 className="font-semibold mb-2">1. Get Your API Key</h3>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Sign in to your dashboard and navigate to Settings -> API Keys to generate your authentication token.
+                  Sign in to your dashboard and navigate to Settings -{'>'} API Keys to generate your authentication token.
                 </p>
                 <div className="bg-muted/50 rounded-lg p-4 flex items-center justify-between">
                   <code className="text-sm font-mono">{demoApiKey}</code>

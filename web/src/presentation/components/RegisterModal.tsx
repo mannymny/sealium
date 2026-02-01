@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from 'react';
 import { Mail, Lock, User, Eye, EyeOff } from 'lucide-react';
 import { Button } from '@/presentation/ui/button';
-import { authModalStyles } from '@/presentation/components/AuthModal.styles';
+import { authModalStyles } from '../styles/AuthModal.styles';
 
 interface RegisterModalProps {
   onClose: () => void;
@@ -83,7 +83,7 @@ export function RegisterModal({ onClose, onSwitchToLogin, onRegister }: Register
                 type={showPassword ? 'text' : 'password'}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="••••••••"
+                placeholder="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
                 className={authModalStyles.inputPassword}
                 required
               />

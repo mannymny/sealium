@@ -1,4 +1,4 @@
-import type { ActivityStatus } from '@/presentation/components/ActivityTable.types';
+import type { ActivityStatus } from '../components/ActivityTable.types';
 
 export const activityTableStyles = {
   desktopWrapper: "hidden md:block bg-card rounded-xl border border-border overflow-hidden",

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { ThemeToggle } from '@/presentation/components/ThemeToggle';
+import { ThemeToggle } from './ThemeToggle';
 import { Button } from '@/presentation/ui/button';
-import { navigationStyles } from '@/presentation/components/Navigation.styles';
-import { RavenLogo } from '@/presentation/components/RavenLogo';
+import { RavenLogo } from './RavenLogo';
+import { navigationStyles } from '../styles/Navigation.styles';
 
 interface NavigationProps {
   onNavigate: (page: string) => void;
@@ -119,3 +119,5 @@ export function Navigation({ onNavigate, currentPage = 'landing' }: NavigationPr
     </nav>
   );
 }
+
+

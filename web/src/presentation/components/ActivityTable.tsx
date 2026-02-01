@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
 import { FileText, Shield, MoreVertical, Clock, CheckCircle2, Lock } from 'lucide-react';
 import { cn } from '@/presentation/ui/utils';
-import type { Activity, ActivityStatus } from '@/presentation/components/ActivityTable.types';
-import { activityTableStyles } from '@/presentation/components/ActivityTable.styles';
+import type { Activity, ActivityStatus } from './ActivityTable.types';
+import { activityTableStyles } from '@/presentation/styles/ActivityTable.styles';
 
 const mockActivities: Activity[] = [
   {

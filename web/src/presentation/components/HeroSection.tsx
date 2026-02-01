@@ -1,6 +1,6 @@
 import { Sparkles, ArrowRight } from 'lucide-react';
 import { Button } from '@/presentation/ui/button';
-import { heroSectionStyles } from '@/presentation/components/HeroSection.styles';
+import { heroSectionStyles } from '../styles/HeroSection.styles';
 
 interface HeroSectionProps {
   onGetStarted: () => void;

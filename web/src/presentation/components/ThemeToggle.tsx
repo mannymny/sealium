@@ -1,6 +1,6 @@
 import { Sun, Moon } from 'lucide-react';
 import { useTheme } from '@/application/contexts/ThemeContext';
-import { themeToggleStyles } from '@/presentation/components/ThemeToggle.styles';
+import { themeToggleStyles } from '../styles/ThemeToggle.styles';
 
 interface ThemeToggleProps {
   showLabel?: boolean;

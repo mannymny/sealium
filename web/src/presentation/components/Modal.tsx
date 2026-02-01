@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import { X } from 'lucide-react';
 import { useEffect } from 'react';
-import { modalStyles } from '@/presentation/components/Modal.styles';
+import { modalStyles } from '../styles/Modal.styles';
 
 interface ModalProps {
   onClose: () => void;

@@ -2,7 +2,7 @@ import { Navigation } from '@/presentation/components/Navigation';
 import { HeroSection } from '@/presentation/components/HeroSection';
 import { FeatureCard } from '@/presentation/components/FeatureCard';
 import { GlobalActivityTable } from '@/presentation/components/GlobalActivityTable';
-import { landingPageStyles } from '@/presentation/pages/LandingPage.styles';
+import { landingPageStyles } from '@/presentation/styles/LandingPage.styles';
 
 interface LandingPageProps {
   onNavigate: (page: string) => void;
@@ -25,3 +25,5 @@ export function LandingPage({ onNavigate, onGetStarted, currentPage }: LandingPa
     </div>
   );
 }
+export { landingPageStyles };
+

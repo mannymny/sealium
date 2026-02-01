@@ -1,6 +1,6 @@
 import * as React from "react";
 import { cn } from "./utils";
-import { buttonStyles } from "./button.styles";
+import { buttonStyles } from '../styles/button.styles';
 
 type ButtonVariant = keyof typeof buttonStyles.variants;
 type ButtonSize = keyof typeof buttonStyles.sizes;

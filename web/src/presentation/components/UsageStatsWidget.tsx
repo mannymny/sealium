@@ -1,5 +1,5 @@
 import { FileText, Shield, Activity, TrendingUp } from 'lucide-react';
-import { usageStatsStyles } from '@/presentation/components/UsageStatsWidget.styles';
+import { usageStatsStyles } from '../styles/UsageStatsWidget.styles';
 
 interface UsageStats {
   period: string;

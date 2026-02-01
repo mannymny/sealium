@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link2, Upload, Shield } from 'lucide-react';
 import { Button } from '@/presentation/ui/button';
-import { featureCardStyles } from '@/presentation/components/FeatureCard.styles';
+import { featureCardStyles } from '../styles/FeatureCard.styles';
 
 type TabType = 'transcription' | 'proof';
 

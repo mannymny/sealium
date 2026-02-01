@@ -10,10 +10,11 @@ import {
   Activity,
 } from 'lucide-react';
 import type { ReactNode } from 'react';
-import { ThemeToggle } from '@/presentation/components/ThemeToggle';
-import { UsageStatsWidget } from '@/presentation/components/UsageStatsWidget';
-import { sidebarStyles } from '@/presentation/components/Sidebar.styles';
-import { RavenLogo } from '@/presentation/components/RavenLogo';
+
+import { sidebarStyles } from '../styles/Sidebar.styles';
+import { RavenLogo } from './RavenLogo';
+import { UsageStatsWidget } from './UsageStatsWidget';
+import { ThemeToggle } from './ThemeToggle';
 
 type MenuItem = {
   id: string;
